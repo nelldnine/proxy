@@ -22,4 +22,4 @@ app.use(
   })
 );
 
-app.listen(process.env.URL || 3000);
+app.listen(process.env.PORT || 3000);
